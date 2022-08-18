@@ -146,7 +146,7 @@ input, textarea{
 }
  @media (max-width:670px) {
    input, textarea{
-  width: 100%;
+  width: 80%;
   padding-bottom: 10px;
    }
    
