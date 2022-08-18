@@ -146,12 +146,12 @@ input, textarea{
 }
  @media (max-width:670px) {
    input, textarea{
-  width: 80%;
+  width: 100%;
   padding-bottom: 10px;
    }
    
 .contact-form h3{
-   width: 90%;
+   width: 100%;
    margin: 0 auto;
    margin-bottom: 95px;
 }
