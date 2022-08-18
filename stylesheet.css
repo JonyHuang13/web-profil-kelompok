@@ -1,98 +1,97 @@
 .contact-form {
-    flex-direction: column;
-    text-align: center;
-    font-family: "Inria Sans";
-    margin: 0 auto;
-    width: 100%;
-    height: 100%;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Inria Sans";
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
 }
 .contact-form h3 {
-    margin-top: 48px;
-    margin-bottom: 95px;
-    color:#000000;
-    font-size: 50px;
-    text-align: center;
+  margin-top: 48px;
+  margin-bottom: 95px;
+  color:#000000;
+  font-size: 50px;
+  text-align: center;
 
 }
 input, textarea {
-    width: 963px;
-    padding-top: 11px;
-    padding-bottom: 10px;
-    padding-left: 41px;
-    font-size: 30px;
-    border: 6px solid #515151;
-    background-color: #26272D;
-    color: #FFFFFF;
+  width: 963px;
+  padding-top: 11px;
+  padding-bottom: 10px;
+  padding-left: 41px;
+  font-size: 30px;
+  border: 6px solid #515151;
+  background-color: #26272D;
+  color: #FFFFFF;
 }
 input{
-    margin-bottom:29px;
-    height: 57px;
+  margin-bottom:29px;
+  height: 57px;
 }
 textarea{
-    margin-top: 11px;
-    margin-bottom: 30px;
-    position: relative;
-    resize: none;
-    height: 379px;
+  margin-top: 11px;
+  margin-bottom: 30px;
+  position: relative;
+  resize: none;
+  height: 379px;
 }
 ::placeholder {
-    font-size: 30px;
-    color: #FFFFFF;
-    opacity: 0.5;
-   }
+  font-size: 30px;
+  color: #FFFFFF;
+  opacity: 0.5;
+ }
 .btn {
-    padding: 12px 24px;
-    color: white;
-    display: inline-block;
-    opacity: 0.8;
-    border-radius: 4px;
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
 }
 .message-wrapper {
-    border-bottom: 1px solid #26272D;
-    padding-bottom: 105px;
-    text-align: center;
-  }
+  border-bottom: 1px solid #26272D;
+  padding-bottom: 105px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #26272D;
+  box-shadow: 0 7px #515151;
+}
+
+.message:active{
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+.message-wrapper a {
+  color: #FFFFFF;
+}
+.clear {
+clear: left;
+}
+@media (max-width:1000px) {
+input, textarea{
+  width: 50%;
+  padding-bottom: 10px;
   
-  .message {
-    padding: 15px 40px;
-    background-color: #26272D;
-    box-shadow: 0 7px #515151;
-  }
-  
-  .message:active{
-    box-shadow: none;
-    position: relative;
-    top: 7px;
-  }
-  .message-wrapper a {
-    color: #FFFFFF;
-  }
-  .clear {
-  clear: left;
-  }
-  @media (max-width:1000px) {
-  input, textarea{
-    width: 40%;
-    padding-bottom: 10px;
-    
-  }
-   .contact-form h3{
-     width: 60%;
-     margin: 0 auto;
-     margin-bottom: 95px;
-     
-   }
-  }
-   @media (max-width:670px) {
-     input, textarea{
-    width: 80%;
-    padding-bottom: 10px;
-     }
-     
-  .contact-form h3{
-     width: 100%;
-     margin: 0 auto;
-     margin-bottom: 95px;
-  }
+}
+ .contact-form h3{
+   width: 50%;
+   margin: 0 auto;
+   margin-bottom: 95px;
+   
+ }
+}
+ @media (max-width:670px) {
+   input, textarea{
+  width: 80%;
+  padding-bottom: 10px;
    }
    
+.contact-form h3{
+   width: 90%;
+   margin: 0 auto;
+   margin-bottom: 95px;
+}
+ }
